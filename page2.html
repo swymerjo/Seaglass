@@ -11,136 +11,29 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
-    <style>
-      body {
-        background: aquamarine;
-      }
-      h1,
-      h2,
-      h3,
-      h4,
-      h5 {
-        font-family: "Indie Flower", cursive;
-      }
-      h1 {
-        text-align: center;
-        color: #006e99;
-        border: 2px solid #006e99;
-        text-transform: uppercase;
-        font-size: 42pt;
-        margin-top: 0;
-        padding: 10px;
-      }
-      h2 {
-        text-align: center;
-        color: #02c5c4;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-        padding: 25pt;
-        font-size: 28pt;
-        border-radius: 4px;
-      }
-      p {
-        font-size: 18px;
-        line-height: 1.5;
-        margin: 20px 0 10px;
-        font-family: "Indie Flower", cursive;
-        text-align: center;
-      }
-
-      .container {
-        max-width: 80%;
-        margin: 0 auto;
-        padding: 30px 60px;
-      }
-      .back-homepage {
-        color: goldenrod;
-        text-decoration: none;
-      }
-
-      .project-heading {
-        text-align: center;
-        color: goldenrod;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-        font-size: 40pt;
-        font-weight: bolder;
-        margin: 0;
-        padding: 15pt;
-      }
-      .seaglass-pic {
-        width: 300px;
-        height: 300px;
-        border-radius: 5px;
-        box-shadow: 0 4px 0 rgba(34, 60, 80, 0.16);
-        transition: all ease-in-out 0.2s;
-        padding: 0%;
-        margin: 0%;
-      }
-      .seaglass-pic:hover {
-        filter: brightness(0.75);
-        box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
-        -webkit-transform: scale(1.5);
-        transform: scale(1.5);
-      }
-      .umbrella-icon {
-        color: goldenrod;
-      }
-      
-      .submit-button-wrapper {
-        margin: 20px 0;
-      }
-      .links-and-contact {
-        display: grid;
-        grid-template-columns: 30% 70%;
-        font-family: "Indie Flower", cursive;
-      }
-      .links {
-        justify-self: center;
-      }
-      .links-list {
-        list-style: none;
-        padding: 0;
-        font-family: "Indie Flower", cursive;
-        text-align: right;
-      }
-       .footer {
-        text-align: center;
-      }
-       .my-name {
-        color: rgb(1, 161, 157);
-        text-decoration: none;
-        font-weight: bold;
-      }
-      .my-name:hover {
-        text-decoration: underline;
-        font-weight: bold;
-      }
-
-      form input,
-      textarea {
-        padding: 5px;
-        border-radius: 5px;
-        width: 240px;
-        font-family: "Indie Flower", cursive;
-      }
-
-      form input [type="submit"] {
-        width: 250px;
-      }
-    </style>
+    <link rel="stylesheet" href="src/style2.css" />
   </head>
   <body>
     <div class="container">
       <h1>🌊 Sea Glass ⛵</h1>
       <h2>by Jason Brown</h2>
-      <a href="Seaglass_2.html" class="back-homepage"
-        ><h4>Back to homepage 🏠</h4></a
-      >
-      <hr />
 
-      <span
-        ><h3 class="project-heading">
-          My Projects <i class="fas fa-umbrella-beach umbrella-icon"></i></h3
-      ></span>
+      <div class="row">
+        <div class="col-6">
+          <a href="page2.html" class="back-homepage"
+            ><h4>Back to homepage 🏠</h4></a
+          >
+        </div>
+        <div class="col-6">
+          <button id="contact-button">
+            <a id="contact-link" href="mailto:sammyjowymerpsych@gmail.com"
+              >Contact Jason</a
+            >
+          </button>
+        </div>
+      </div>
+      <hr />
+      <h3 class="project-heading">Seaglass Art Projects</h3>
       <br />
       <div class="row">
         <div class="col-4">
@@ -264,56 +157,17 @@
           <h4>Arizona Sky</h4>
         </div>
       </div>
-            <hr />
+      <hr />
 
-       <div class="links-and-contact">
-      <div class="links">
-        <h4>Links</h4>
-        <ul class="links-list">
-          <li>
-            <a
-              href="https://www.linkedin.com/in/jason-brown-0301b445/"
-              target="_blank"
-              >LinkedIn</a
-            >
-          </li>
-
-          <li>
-            <a href="https://twitter.com/jasonconga" target="_blank">Twitter</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="row">
-        <div class="col-1">
-        <form action="#">
-          <label for="email">
-            <h4>Email</h4>
-            <input id="email" placeholder="Enter your email" />
-          </label>
-        </div>
-        <div class="col-12">
-          <br/>
-          <label for="message">
-            <h4>Message:</h4>
-            <textarea id="message">Your message</textarea>
-          </label>
-          </div>
-          <div class="submit-button-wrapper">
-            <input id="submit-button" type="submit" value="Send Message" />
-          </div>
-        </form>
-      </div>
-    </div>
-    <p class="footer">
-      This page was built by
-      <a
-        class="my-name"
-        href="https://www.linkedin.com/in/sammy-jo-wymer-6391b2205/"
-        target="_blank"
-        >Sammy Wymer</a
-      >
-    </p>
+      <p class="footer">
+        This page was built by
+        <a
+          class="my-name"
+          href="https://www.linkedin.com/in/sammy-jo-wymer-6391b2205/"
+          target="_blank"
+          >Sammy Wymer</a
+        >
+      </p>
     </div>
   </body>
 </html>

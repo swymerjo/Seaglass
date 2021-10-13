@@ -1,0 +1,102 @@
+body {
+  background: #d98c01;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Indie Flower", cursive;
+}
+h1 {
+  text-align: center;
+  color: #006e99;
+  border: 2px solid #006e99;
+  text-transform: uppercase;
+  font-size: 42pt;
+  margin-top: 0;
+  padding: 10pt;
+}
+h2 {
+  text-align: center;
+  color: #006e99;
+  padding: 15pt;
+  font-size: 26pt;
+  border-radius: 4px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px 0 10px;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+}
+#contact-button {
+  display: block;
+  margin-left: 60%;
+  background: #006e99;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  font-family: "Indie Flower", cursive;
+}
+
+#contact-link {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+#contact-link:hover {
+  text-decoration: underline;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 30px 60px;
+  background: aquamarine;
+}
+.back-homepage {
+  color: #006e99;
+  text-decoration: none;
+}
+
+.project-heading {
+  text-align: center;
+  color: #d98c01;
+  font-size: 30pt;
+  font-weight: bolder;
+  margin: 0;
+  padding: 15pt;
+}
+.seaglass-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 0 4px 0 rgba(34, 60, 80, 0.16);
+  transition: all ease-in-out 0.2s;
+  padding: 0%;
+  margin: 0%;
+}
+.seaglass-pic:hover {
+  filter: brightness(0.75);
+  box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.footer {
+  text-align: center;
+}
+.my-name {
+  color: #d98c01;
+  text-decoration: none;
+  font-weight: bold;
+}
+.my-name:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
