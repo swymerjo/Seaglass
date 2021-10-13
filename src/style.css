@@ -1,0 +1,170 @@
+body {
+  background: aquamarine;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Indie Flower", cursive;
+}
+h1 {
+  text-align: center;
+  color: #006e99;
+  border: 2px solid #006e99;
+  text-transform: uppercase;
+  font-size: 42pt;
+  margin-top: 0;
+  padding: 10pt;
+}
+h2 {
+  text-align: center;
+  color: #02c5c4;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding: 15pt;
+  font-size: 28pt;
+  border-radius: 4px;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  font-size: 14pt;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px 0 10px;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+#contact-button {
+  display: block;
+  margin: 20px auto;
+  background: #006e99;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+  font-family: "Indie Flower", cursive;
+}
+
+#contact-link {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+#contact-link:hover {
+  text-decoration: underline;
+}
+
+.shell {
+  width: 100pt;
+  display: block;
+  margin: 0 auto;
+}
+
+.learn-more {
+  display: block;
+  margin-top: 10px;
+  color: goldenrod;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+  text-align: center;
+}
+.learn-more:hover {
+  text-decoration: underline;
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+  font-size: 20px;
+  color: goldenrod;
+  text-align: center;
+}
+.turtle-link {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 2px solid #00bcf2;
+}
+.about-me-link {
+  width: 150px;
+  height: 160px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 2px solid #00bcf2;
+}
+
+.footer {
+  text-align: center;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 30px 60px;
+}
+
+.my-name {
+  color: rgb(1, 161, 157);
+  text-decoration: none;
+  font-weight: bold;
+}
+.my-name:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.projectLink {
+  text-decoration: none;
+  color: #006e99;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+  font-family: "Indie Flower", cursive;
+  margin-left: 90pt;
+}
+
+.projectLink-2 {
+  text-decoration: none;
+  color: #006e99;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+  font-family: "Indie Flower", cursive;
+  margin-left: 120pt;
+}
+.projectLink:hover {
+  font-size: 15pt;
+  color: goldenrod;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.projectLink-2:hover {
+  font-size: 15pt;
+  color: goldenrod;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.instagram-icon {
+  color: goldenrod;
+  font-weight: bold;
+}
