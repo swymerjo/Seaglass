@@ -1,5 +1,7 @@
 body {
-  background: #d98c01;
+  background: wheat;
+  background-image: url("C:/Users/sambo/OneDrive/Desktop/GitHub-websites/Seaglass/images/shell.png");
+  background-repeat: repeat;
 }
 h1,
 h2,
@@ -91,11 +93,6 @@ hr {
 }
 .learn-more:hover {
   text-decoration: underline;
-  font-family: "Indie Flower", cursive;
-  font-weight: bolder;
-  font-size: 20px;
-  color: goldenrod;
-  text-align: center;
 }
 .turtle-link {
   width: 150px;
@@ -117,7 +114,7 @@ hr {
   text-align: center;
 }
 .container {
-  max-width: 80%;
+  max-width: 800px;
   margin: 0 auto;
   padding: 30px 60px;
   background: aquamarine;
@@ -139,7 +136,7 @@ hr {
   font-weight: bold;
   transition: all 200ms ease-in-out;
   font-family: "Indie Flower", cursive;
-  margin-left: 90pt;
+  margin-left: 60pt;
 }
 
 .projectLink-2 {
@@ -149,19 +146,15 @@ hr {
   font-weight: bold;
   transition: all 200ms ease-in-out;
   font-family: "Indie Flower", cursive;
-  margin-left: 120pt;
+  margin-left: 80pt;
 }
 .projectLink:hover {
-  font-size: 15pt;
-  color: #d98c01;
-  opacity: 0.9;
   cursor: pointer;
+  color: #d98c01;
 }
 .projectLink-2:hover {
-  font-size: 15pt;
-  color: goldenrod;
-  opacity: 0.9;
   cursor: pointer;
+  color: #d98c01;
 }
 
 .instagram-icon {
